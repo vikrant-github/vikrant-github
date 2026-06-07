@@ -17,7 +17,7 @@ Carrier-grade telecom (BT, AT&T, Openwave) is where I learned what production ac
 - **LLM clinical summarization · AWS Bedrock** - LLaMA3-8B-Instruct · 10K+ notes/run · sub-$0.00025/note · 98% JSON compliance · HITL governance
 - **Agentic AI · clinical workflow automation** - Plan-Execute architecture · deterministic ML + LLM reasoning · 5-stage care manager workflow
 - **ETA prediction · GCP Vertex AI** - 20M+ annual shipments · CatBoost · 97.66% precision · 94.70% F1 on 14M records
-- **NLU microservices · JPMC Gaia** - Chase Mobile virtual assistant · 50M+ retail banking users
+- **NLU microservices · JPMC Gaia Cloud** - Chase Mobile virtual assistant · 50M+ retail banking users
 
 ---
 
