@@ -1,31 +1,55 @@
 # Vikrant
 
-Enterprise AI Architect, Platform Leader, and Technology Executive with 20+ years of experience building and scaling distributed systems, data platforms, machine learning solutions, and enterprise AI capabilities.
+**Enterprise AI Architect · Platform Leader**  
+Delhi NCR · 23 years in engineering · 6 years in production AI
 
-I specialize in translating business strategy into production-grade technology platforms, leading cross-functional teams, and establishing the governance, operating models, and engineering practices required to deliver AI at scale.
+---
 
-## Areas of Expertise
+Production AI is an engineering discipline. I've built the platforms - Agentic systems, LLM infrastructure, MLOps pipelines - that run at scale inside regulated enterprises, not in notebooks.
 
-* Enterprise AI Architecture
-* AI Platforms and MLOps
-* Machine Learning Systems
-* Data Platforms and Analytics Engineering
-* Cloud and Distributed Systems
-* Agentic AI and LLM Applications
-* Technology Leadership and Organizational Scaling
-* AI Governance, Reliability, and Observability
+Carrier-grade telecom (BT, AT&T, Openwave) is where I learned what production actually means. That's the instinct I bring to AI architecture.
 
-## Leadership
+---
 
-* Building and leading high-performing engineering, analytics, and AI teams
-* Defining platform strategy, roadmaps, and operating models
-* Driving cross-functional execution across business and technology stakeholders
-* Establishing governance, delivery frameworks, and engineering excellence
-* Translating complex technical initiatives into measurable business outcomes
+## What I've shipped
 
-## Current Focus
+- **Prefect MLOps platform · 0->1** - AWS EC2/Fargate · 140K+ patients · turnaround cut 75-85% across 4 client environments
+- **LLM clinical summarization · AWS Bedrock** - LLaMA3-8B-Instruct · 10K+ notes/run · sub-$0.00025/note · 98% JSON compliance · HITL governance
+- **Agentic AI · clinical workflow automation** - Plan-Execute architecture · deterministic ML + LLM reasoning · 5-stage care manager workflow
+- **ETA prediction · GCP Vertex AI** - 20M+ annual shipments · CatBoost · 97.66% precision · 94.70% F1 on 14M records
+- **NLU microservices · JPMC Gaia** - Chase Mobile virtual assistant · 50M+ retail banking users
 
-Designing enterprise AI platforms, intelligent workflows, production ML systems, and scalable data architectures.
+---
+
+## Signature capabilities
+
+- **Agentic AI Systems Architecture** - Plan-Execute architecture embedded in production clinical workflows
+- **Governance-Driven AI Architecture** - PHI controls, structured output validation, reproducibility; probabilistic AI converted into auditable enterprise platforms
+- **Cost-Controlled LLM Systems** - token telemetry, checkpoint resilience, faithfulness evaluation aligned with FinOps discipline
+- **Probabilistic Risk Modeling** - counterfactual SDoH masking, deterministic impactability scoring across multi-client healthcare ecosystems
+- **Production ML & MLOps Maturity** - Prefect orchestration, model versioning, drift awareness, audit-ready logging across regulated workloads
+
+---
+
+## Stack
+
+**Generative AI / LLMs** · AWS Bedrock · Agentic AI · RAG Pipelines · LLM-as-Judge · HITL Governance · Token Telemetry  
+**ML / NLP** · CatBoost · Zero-Shot BART · RoBERTa · DeBERTa · SHAP · SDoH Extraction  
+**Orchestration / MLOps** · Prefect · Drift Detection · Model Versioning · CI/CD · AI Lifecycle Management  
+**Cloud / Infra** · EC2 · Fargate · Lambda · S3 · EMR · GCP Vertex AI · BigQuery · Docker · Kubernetes
+
+---
+
+## Thought leadership
+
+- [Designing Real-Time Production ML Systems Using Systems Thinking](https://www.linkedin.com/posts/vikrant2_mlops-machinelearning-systemsthinking-share-7451628953586307072-bAGJ) - Real-time e-commerce ranking architecture using feedback loops, feature stores, inference pipelines, and adaptive decision systems. Apr 2026
+
+- [RAOR Series Part 1 - Repeatability in Production MLOps](https://lnkd.in/gFmixttr) - Production ML failure patterns and building consistent, repeatable pipelines. Apr 2026
+
+- [RAOR Series Part 2 - Automation in Production MLOps and LLM Systems](https://lnkd.in/gwTvbPyT) - Orchestration, configuration management, and validation for reliable ML systems. Apr 2026
+
+
+---
 
 ## Connect
 
