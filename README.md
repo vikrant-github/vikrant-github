@@ -1,7 +1,7 @@
-# Vikrant
+# Vikrant.
 
 **Enterprise AI Architect · Platform Leader**  
-Delhi NCR · 23 years in engineering · 6 years in production AI
+Delhi NCR ·  Over Two Decades of Engineering Experience | 6 Years in AI Development and Production MLOps Architecture
 
 ---
 
@@ -31,12 +31,19 @@ Carrier-grade telecom (BT, AT&T, Openwave) is where I learned what production ac
 
 ---
 
-## Stack
+## Architecture & Platform Expertise
 
-**Generative AI / LLMs** · AWS Bedrock · Agentic AI · RAG Pipelines · LLM-as-Judge · HITL Governance · Token Telemetry  
-**ML / NLP** · CatBoost · Zero-Shot BART · RoBERTa · DeBERTa · SHAP · SDoH Extraction  
-**Orchestration / MLOps** · Prefect · Drift Detection · Model Versioning · CI/CD · AI Lifecycle Management  
-**Cloud / Infra** · EC2 · Fargate · Lambda · S3 · EMR · GCP Vertex AI · BigQuery · Docker · Kubernetes
+**Generative AI / LLMs** · AWS Bedrock · Llama 3 · RAG Pipelines · Hybrid Retrieval · Weaviate · LangChain · LlamaIndex
+
+**Agentic AI** · Multi-Agent Orchestration · Parallel Agent Workflows · MCP Integration · Claude Code · Agent Instruction Design
+
+**MLOps & AI Platforms** · Prefect · CI/CD · Model Versioning · Drift Detection · Automated Retraining · Observability
+
+**AI Governance** · LLM-as-Judge · HITL Governance · Faithfulness Evaluation · Responsible AI · Explainability
+
+**ML / NLP** · CatBoost · RoBERTa · DeBERTa · Zero-Shot NLI · SHAP
+
+**Cloud & Data Platforms** · AWS · GCP Vertex AI · Docker · Kubernetes · EC2 · Fargate · Lambda · BigQuery · Python · SQL
 
 ---
 
