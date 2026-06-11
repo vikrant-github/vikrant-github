@@ -6,7 +6,7 @@ Over Two Decades of Engineering Experience | 6 Years in AI Development and Produ
 
 Production AI is an engineering discipline. I architect and own the platforms (Agentic systems, LLM infrastructure, MLOps pipelines) that run at scale inside regulated enterprises, where reliability, governance, and cost are not optional.
 
-Carrier-grade telecom (BT, AT&T, Openwave) is where I learned what production actually means. That is the instinct I bring to AI architecture.
+Carrier-grade telecom (BT, AT&T, Openwave) set the standard for what production means. The same rigor governs every AI platform I own.
 
 ---
 
