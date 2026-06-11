@@ -1,6 +1,6 @@
 # Vikrant.
 **Enterprise AI Architect · Platform Leader**  
-Delhi NCR · Over Two Decades of Engineering Experience | 6 Years in AI Development and Production MLOps
+Over Two Decades of Engineering Experience | 6 Years in AI Development and Production MLOps | Delhi NCR
 
 ---
 
