@@ -4,35 +4,40 @@
 
 Healthcare · BFSI · Telecom
 
-Production AI and ML systems · Cloud platforms · MLOps · Distributed systems · Enterprise data engineering
+Production AI/ML · MLOps · Cloud Platforms · Distributed Systems · Enterprise Data Engineering
 
 ---
 
 ## Profile
 
-Technology leader with 20+ years of experience progressing from software engineering and distributed systems to architecture, platform ownership, and AI/ML leadership.
+Technology leader with 20+ years of experience progressing from software
+engineering and distributed systems into architecture, platform ownership,
+and AI/ML leadership.
 
-Recent work spans **Generative AI, machine learning, MLOps, clinical AI, predictive intelligence, and cloud-native AI platforms**, with production implementations across healthcare and enterprise environments.
+Recent work spans **Generative AI, machine learning, MLOps, clinical AI,
+predictive intelligence, and cloud-native AI platforms**, with production
+implementations across healthcare and enterprise environments.
 
-Engineering foundation includes **carrier-grade telecom platforms, network analytics, security data platforms, enterprise databases, distributed systems, and large-scale data processing**.
+Engineering foundations include **carrier-grade telecom platforms, network
+analytics, security data platforms, enterprise databases, distributed systems,
+and large-scale data processing**.
 
-I focus on taking AI and ML capabilities from architecture through **production engineering, orchestration, infrastructure, evaluation, observability, governance, and operational adoption**.
+Focus areas include **AI/ML system architecture, production engineering,
+orchestration, cloud infrastructure, model evaluation, observability,
+governance, reliability, and operational adoption**.
 
 ---
 
-## Technical Focus
+## Technical Scope
 
-| Area | Technologies & Expertise |
+| Area | Engineering Scope |
 |---|---|
-| **Generative AI & LLMs** | AWS Bedrock · LLaMA 3 / 3.1 · RAG · Hybrid Retrieval · LLM-as-Judge · Faithfulness Evaluation · Structured Output Validation · HITL · Token Telemetry |
-| **Healthcare AI** | EHR / EMR Data · Clinical Notes · Clinical NLP · SDoH · Risk Stratification · ICD-10 Context · Clinical Workflows · PHI-aware AI |
-| **Machine Learning** | CatBoost · Neural Networks · Zero-Shot NLI · BART · RoBERTa · DeBERTa · SHAP · Predictive Modeling · Model Monitoring · Drift Detection |
-| **MLOps & AI Lifecycle** | Prefect · Automated ML Pipelines · Model Versioning · CI/CD · Production Monitoring · Automated Retraining · Lifecycle Management |
-| **Cloud & AI Infrastructure** | AWS · GCP · Vertex AI · EC2 · ECR · Fargate · Lambda · S3 · EMR · BigQuery · Dataflow · GPU Compute |
-| **Data Engineering** | Glue · Athena · SSIS · ETL Pipelines · BigQuery · Dataflow · Data Lake Architecture |
-| **Software Engineering** | Python · SQL · PL/SQL · Microservices · Kafka · Distributed Systems · Enterprise Integration |
-| **Infrastructure** | Docker · Kubernetes · Cloud-native Architecture · Production Compute · Observability |
-| **Enterprise Platforms** | Telecom OSS/BSS · Network Analytics · Security Data Platforms · Conversational AI · Enterprise Data Platforms |
+| **Generative AI & Clinical AI** | AWS Bedrock · LLaMA 3 / 3.1 · Clinical summarization · Structured output validation · LLM evaluation · Faithfulness assessment · Token telemetry · HITL · Clinical NLP · SDoH |
+| **Machine Learning** | Predictive risk modeling · ETA prediction · CatBoost · Neural networks · Zero-shot NLI · BART · RoBERTa · DeBERTa · SHAP · Model monitoring · Drift detection · Automated retraining |
+| **MLOps & Production Engineering** | Prefect · ML orchestration · Automated pipelines · Model versioning · CI/CD · Production monitoring · Lifecycle management · Workload sizing · GPU-backed inference |
+| **Cloud & Data Platforms** | AWS · GCP · Vertex AI · BigQuery · Dataflow · Glue · Athena · S3 · EMR · RDS · DynamoDB · Docker · Kubernetes |
+| **Software & Distributed Systems** | Python · SQL / PL-SQL · Microservices · Kafka · ETL · Distributed systems · Enterprise integration · Telecom OSS/BSS |
+| **Healthcare Data & AI** | EHR / EMR · Clinical notes · ICD-10 context · Patient risk stratification · Clinical NLP · SDoH · Healthcare analytics · PHI-aware workflows |
 
 ---
 
@@ -40,194 +45,149 @@ I focus on taking AI and ML capabilities from architecture through **production 
 
 ## Healthcare AI & MLOps
 
-### Prefect-based ML Orchestration
+### ML Orchestration Platform
 
-Built an ML orchestration platform from zero, replacing manual configuration-driven execution with automated workflows across ingestion, preprocessing, data lake, and risk-scoring layers.
+Built a Prefect-based ML orchestration platform from zero, replacing
+manual configuration-driven execution across ingestion, preprocessing,
+data lake, and risk-scoring workflows.
 
-**140K+ patients across multiple healthcare implementations**
+**AWS EC2 · Fargate · Prefect**
 
-| Measure | Outcome |
-|---|---:|
-| Analytics turnaround | **75–85% reduction** |
-| 40K-patient implementation | **40 hours → 10 hours** |
-| 100K+ patient implementation | **10–15 days → 2–3 days** |
-| Infrastructure | **AWS EC2 / Fargate** |
+| | |
+|---|---|
+| **Scale** | 140K+ patients across multiple healthcare implementations |
+| **Turnaround** | 75–85% reduction |
+| **40K-patient implementation** | 40 hours → 10 hours |
+| **100K+ patient implementation** | 10–15 days → 2–3 days |
 
 ---
 
 ### Clinical LLM Platform
 
-Designed production LLM infrastructure on **AWS Bedrock** for clinical summarization using LLaMA 3.1-8B-Instruct.
+Designed production clinical summarization infrastructure on **AWS Bedrock**
+using LLaMA 3.1-8B-Instruct.
 
-The platform incorporated structured-output validation, LLM evaluation, exception handling, HITL controls, and token-level cost telemetry.
+The platform incorporated structured-output enforcement, evaluation,
+exception handling, HITL controls, and token-level cost telemetry.
 
-| Measure | Outcome |
-|---|---:|
-| Clinical notes | **10K+ notes / run** |
-| Cost | **< $0.00025 / note** |
-| Orchestration stability | **92%** |
-| Structured JSON compliance | **98%** |
-| AWS compute cost | **20–30% reduction** |
-
----
-
-### Clinical NLP Architecture Review
-
-Identified a silent model dependency mismatch before national rollout.
-
-The upstream SDoH pipeline produced **7 features**, while the downstream zero-shot NLP model expected **12 features**.
-
-The issue was identified through independent architecture review before production deployment and influenced the rollout decision.
+| | |
+|---|---|
+| **Throughput** | 10K+ clinical notes per run |
+| **Unit cost** | < $0.00025 per note |
+| **Orchestration stability** | 92% |
+| **Structured JSON compliance** | 98% |
+| **AWS compute cost reduction** | 20–30% |
 
 ---
 
 ### Production Healthcare Inference
 
-Defined infrastructure architecture for production-scale healthcare inference by evaluating workload characteristics, data volumes, throughput, and compute requirements.
+Defined production inference architecture by evaluating workload
+characteristics, data volumes, throughput requirements, and compute
+utilization.
 
-Selected GPU-backed EC2 infrastructure where workload characteristics justified GPU acceleration over standard compute.
+GPU-backed EC2 infrastructure was selected for workloads where GPU
+acceleration provided a meaningful throughput advantage over standard
+compute.
 
 ---
 
-# Machine Learning Architecture
+## Machine Learning
 
-## Cardinal Health — OptiFreight®
+### Cardinal Health — OptiFreight
 
-Designed ML architecture for ETA prediction across a healthcare logistics platform processing **20M+ shipments annually**.
+Designed ML architecture for ETA prediction across a healthcare logistics
+platform processing **20M+ shipments annually**.
 
-**GCP Vertex AI · BigQuery · Dataflow · CatBoost · SHAP · Model Monitoring**
+**GCP Vertex AI · BigQuery · Dataflow · CatBoost · SHAP**
 
-Selected CatBoost after evaluating Random Forest and Neural Network alternatives.
+Evaluated Random Forest, Neural Network, and CatBoost approaches and selected
+CatBoost for the production model.
 
 **14M historical shipment records**
 
-| Metric | Result |
-|---|---:|
-| Precision | **97.66%** |
-| F1 | **94.70%** |
-
-Designed explainability, monitoring, drift detection, and model lifecycle capabilities for production ML.
+- **97.66% precision**
+- **94.70% F1**
+- SHAP-based model explainability
+- Production monitoring and drift detection
+- Model lifecycle and retraining controls
 
 ---
 
-# Conversational AI
+## Conversational AI
 
-## JPMorgan Chase — Chase Mobile Virtual Assistant
+### JPMorgan Chase — Chase Mobile Virtual Assistant
 
-Worked on enterprise conversational AI capabilities supporting a mobile banking platform serving **50M+ digital customers**.
+Worked on enterprise conversational AI capabilities for a mobile banking
+platform serving **50M+ digital customers**.
 
-| Capability | Technology |
-|---|---|
-| NLP architecture | **RASA** |
-| Data / integration layer | **Kafka · Microservices** |
-| Conversational capability | **Intent classification · Dialogue orchestration** |
-| Platform transition | **IPsoft Amelia → RASA** |
+**RASA · Kafka · Microservices · NLP · Dialogue Orchestration**
+
+- Architected NLP service components supporting model execution.
+- Worked on intent classification and dialogue orchestration.
+- Contributed to migration from IPsoft Amelia to RASA-based architecture.
+- Delivered within a highly regulated financial-services environment.
 
 ---
 
 # Large-Scale Engineering
 
-## AT&T — Domain 2.0
+The AI/ML work builds on earlier experience designing and operating
+large-scale distributed and data-intensive systems.
 
-Led technology delivery and architecture for telecom analytics and operational platforms supporting AT&T's Domain 2.0 transformation.
-
-Architected ETL and analytics frameworks processing **30TB+ of network measurements monthly** for network performance monitoring and fault detection.
-
-**Focus:** Network analytics · ETL architecture · Distributed processing · Operational intelligence · Legacy modernization
-
----
-
-## Symantec Managed Security Services
-
-Led database architecture modernization and IPv6 transformation across replicated Microsoft SQL Server environments supporting security platforms processing **400B+ threat logs monthly**.
-
-**Focus:** Database architecture · Replication · IPv6 transformation · Large-scale security data
-
----
-
-## Openwave Telecom Platforms
-
-Engineered carrier-grade mediation, policy control, and traffic-management platforms supporting global telecom operators.
-
-Led the Ireland-to-India engineering transition for platforms supporting a **$40–50M quarterly business**.
-
-**Focus:** Telecom mediation · Policy control · Traffic management · Distributed systems · Platform transition
-
----
-
-## British Telecom — 21CN
-
-Worked on carrier-grade observability, telemetry, and fault-correlation systems supporting BT's 21CN transformation and service assurance across a network serving **22.5M+ households**.
-
-**Focus:** Network telemetry · Fault correlation · Service assurance · Distributed systems
-
----
-
-# Engineering Perspective
-
-Production AI is a systems engineering problem.
-
-A model is one component of a larger production system involving:
-
-| Concern | Engineering Considerations |
+| Platform | Engineering Scope |
 |---|---|
-| **Data** | Quality · Dependencies · Lineage · Feature consistency |
-| **Pipelines** | Orchestration · Repeatability · Failure handling |
-| **Models** | Evaluation · Versioning · Monitoring · Drift |
-| **Infrastructure** | Compute · GPU sizing · Scalability · Availability |
-| **LLMs** | Output validation · Cost · Evaluation · Exceptions |
-| **Operations** | Observability · Alerting · Recovery · Release readiness |
-| **Governance** | Access controls · HITL · Auditability · Responsible AI |
-| **Economics** | Compute utilization · Token consumption · Cost controls |
-
-My work focuses on the **engineering decisions and system boundaries** that determine whether AI capabilities can operate reliably in production.
+| **AT&T — Domain 2.0** | Telecom analytics and ETL architecture processing **30TB+ network measurements monthly** for performance monitoring, fault detection, and service assurance |
+| **Symantec Managed Security Services** | Database architecture modernization and IPv6 transformation across replicated SQL Server environments processing **400B+ threat logs monthly** |
+| **Openwave Telecom Platforms** | Carrier-grade mediation, policy control, and traffic-management platforms; Ireland-to-India engineering transition supporting a **$40–50M quarterly business** |
+| **British Telecom — 21CN** | Observability, telemetry, and fault-correlation systems supporting service assurance across a network serving **22.5M+ households** |
 
 ---
 
 # Healthcare Domain
 
-Experience across healthcare data, analytics, and AI workflows:
+Experience with healthcare data, analytics, and AI workflows including:
 
-| Domain | Experience |
-|---|---|
-| **Healthcare Data** | EHR / EMR · Clinical notes · Patient data |
-| **Clinical NLP** | SDoH extraction · Zero-shot NLP · Clinical text processing |
-| **Risk & Prediction** | Patient risk stratification · Predictive modeling |
-| **Clinical Context** | ICD-10 coding context · Clinical workflows |
-| **AI Operations** | PHI-aware workflows · HITL · Model governance |
-| **Analytics** | Healthcare analytics · Operational reporting · Risk analytics |
+**EHR / EMR data** · Clinical notes · ICD-10 context · Patient risk
+stratification · Clinical NLP · SDoH · Healthcare analytics · Risk models ·
+Clinical workflow automation · PHI-aware workflows · Human-in-the-loop
 
 ---
 
 # Technical Stack
 
-| Area | Stack |
+| Category | Technologies |
 |---|---|
-| **Generative AI** | AWS Bedrock · LLaMA 3 / 3.1 · RAG · Hybrid Retrieval · LLM-as-Judge · Faithfulness Evaluation · HITL |
-| **Machine Learning** | CatBoost · BART · RoBERTa · DeBERTa · SHAP · Neural Networks |
-| **MLOps** | Prefect · GitLab · Jenkins · Model Versioning · Drift Detection · Automated Retraining |
-| **AWS** | EC2 · ECR · Fargate · Lambda · S3 · EMR · RDS · DynamoDB · Glue · Athena |
-| **GCP** | Vertex AI · BigQuery · Dataflow |
-| **Data Engineering** | ETL · Data Lakes · SSIS · Glue · Athena · BigQuery |
-| **Programming** | Python · SQL · PL/SQL |
-| **Infrastructure** | Docker · Kubernetes · GPU Compute |
-| **Distributed Systems** | Microservices · Kafka · Telecom OSS/BSS · Enterprise Integration |
+| **Generative AI** | `AWS Bedrock` · `LLaMA 3` · `RAG` · `Hybrid Retrieval` · `LLM-as-Judge` · `Faithfulness Evaluation` · `HITL` |
+| **Machine Learning** | `CatBoost` · `BART` · `RoBERTa` · `DeBERTa` · `SHAP` · `Neural Networks` |
+| **MLOps** | `Prefect` · `GitLab` · `Jenkins` · `Model Versioning` · `Drift Detection` · `Automated Retraining` |
+| **Cloud** | `AWS` · `GCP` · `Vertex AI` · `EC2` · `ECR` · `Fargate` · `Lambda` · `S3` · `EMR` · `BigQuery` · `Dataflow` |
+| **Data Engineering** | `Glue` · `Athena` · `SSIS` · `ETL` · `Kafka` |
+| **Software & Infrastructure** | `Python` · `SQL` · `PL/SQL` · `Docker` · `Kubernetes` · `GPU Compute` · `Microservices` · `Distributed Systems` |
 
 ---
 
-# Engineering Background
+# Thought Leadership
 
-```text
-Software Engineering
-        ↓
-Distributed Systems
-        ↓
-Telecom Platforms
-        ↓
-Enterprise Data & Analytics
-        ↓
-Machine Learning
-        ↓
-MLOps
-        ↓
-Generative AI
+### Designing Real-Time Production ML Systems Using Systems Thinking
+
+E-commerce ranking architecture using feedback loops, feature stores, and
+adaptive inference pipelines.
+
+[LinkedIn](https://www.linkedin.com/posts/vikrant2_mlops-machinelearning-systemsthinking-share-7451628953586307072-bAGJ)
+
+### RAOR Series — Part 1
+
+**Repeatability in Production MLOps Systems**
+
+Failure patterns and repeatable pipeline design for production ML.
+
+[LinkedIn](https://lnkd.in/gFmixttr)
+
+### RAOR Series — Part 2
+
+**Automation in Production MLOps and LLM Systems**
+
+Orchestration, configuration management, and validation for reliable ML delivery.
+
+[LinkedIn](https://lnkd.in/gwTvbPyT)
