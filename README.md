@@ -1,67 +1,221 @@
-# Vikrant.
-**Enterprise AI Architect · Platform Leader**  
-Over Two Decades of Engineering Experience | 6 Years in AI Development and Production MLOps | Delhi NCR
+# Vikrant
+
+## Enterprise AI Architect
+
+**Production AI · Generative AI · MLOps · Cloud & Distributed Systems**
+
+20+ years of engineering and architecture experience  
+6+ years across AI/ML, MLOps, and production AI systems  
+Delhi NCR, India
 
 ---
 
-Production AI is an engineering discipline. I architect and own the platforms (Agentic systems, LLM infrastructure, MLOps pipelines) that run at scale inside regulated enterprises, where reliability, governance, and cost are not optional.
+## Profile
 
-Carrier-grade telecom (BT, AT&T, Openwave) set the standard for what production means. The same rigor governs every AI platform I own.
+Enterprise AI Architect with 20+ years of experience designing and modernizing production technology platforms across **Healthcare, BFSI, and Telecom**.
 
----
+Recent work focuses on **Generative AI, machine learning platforms, MLOps, cloud-native AI infrastructure, and production AI governance**.
 
-## What I've shipped
+I work at the point where AI models become production systems — **architecture, data pipelines, orchestration, inference infrastructure, evaluation, observability, reliability, and operational controls**.
 
-- **Prefect MLOps platform · 0->1** · AWS EC2/Fargate · 140K+ patients · turnaround cut 75-85% across 4 client environments
-- **LLM clinical summarization · AWS Bedrock** · LLaMA3-8B-Instruct · 10K+ notes/run · sub-$0.00025/note · 98% JSON compliance · HITL governance
-- **Agentic AI · clinical workflow automation** · Plan-Execute architecture · deterministic ML + LLM reasoning · 5-stage care manager workflow
-- **ETA prediction · GCP Vertex AI** · 20M+ annual shipments · CatBoost · 97.66% precision · 94.70% F1 on 14M records
-- **NLU microservices · JPMC Gaia Cloud** · Chase Mobile virtual assistant · 50M+ retail banking users
+Earlier engineering experience spans **carrier-grade distributed systems, telecom OSS/BSS, network analytics, security data platforms, database architecture, and enterprise integration**.
 
 ---
 
-## Signature capabilities
+## Production AI & MLOps
 
-- **Agentic AI Systems Architecture** · Plan-Execute architecture integrating deterministic ML pipelines with LLM reasoning in production workflows
-- **Governance-Driven AI Systems** · access controls, structured output validation, and reproducibility that convert probabilistic AI into auditable enterprise platforms
-- **Cost-Controlled LLM Systems** · token telemetry, checkpoint resilience, and faithfulness evaluation aligned with FinOps discipline at the architecture level
-- **Decision-Grade Model Engineering** · converting probabilistic model output into deterministic, explainable decisions across healthcare, logistics, and banking
+### Generative AI
 
----
+`AWS Bedrock` · `LLaMA 3 / 3.1` · `RAG` · `Hybrid Retrieval` · `LLM-as-Judge` · `Faithfulness Evaluation` · `HITL` · `Structured Output Validation` · `Token Telemetry`
 
-## Architecture & Platform Expertise
+### Machine Learning
 
-**Generative AI and LLMs:** AWS Bedrock · LLaMA3 · LangChain · LlamaIndex · RAG · Hybrid Retrieval · Weaviate · LLM Observability  
-**AI Native Agentic Tooling:** Agentic AI · Multi-Agent Orchestration · Parallel Agent Workflows · MCP Integration · Claude Code  
-**Orchestration and MLOps:** Prefect · GitLab · Jenkins · CI/CD · Model Versioning · Drift Detection · Automated Retraining · AI Lifecycle Management  
-**AI Governance and Evaluation:** LLM-as-Judge · Faithfulness Evaluation · HITL Governance · Responsible AI · Explainability Frameworks  
-**Machine Learning and NLP:** CatBoost · RoBERTa · DeBERTa · SHAP Explainability · Neural Networks  
-**Cloud and Data Systems:** AWS (EC2, ECR, Fargate, Lambda, S3, EMR, RDS, DynamoDB) · GCP Vertex AI · BigQuery · Dataflow · Docker · Kubernetes · GPU-based Compute  
-**Programming Languages:** Python · SQL · PL/SQL
+`CatBoost` · `Neural Networks` · `Zero-Shot NLI` · `BART` · `RoBERTa` · `DeBERTa` · `SHAP` · `Risk Modeling` · `Predictive Analytics` · `Drift Detection`
 
----
+### MLOps & Orchestration
 
-## Thought leadership
+`Prefect` · `Model Versioning` · `CI/CD` · `GitLab` · `Jenkins` · `Automated ML Workflows` · `Production Monitoring` · `AI Lifecycle Management`
 
-- [Designing Real-Time Production ML Systems Using Systems Thinking](https://www.linkedin.com/posts/vikrant2_mlops-machinelearning-systemsthinking-share-7451628953586307072-bAGJ) - Real-time e-commerce ranking architecture using feedback loops, feature stores, inference pipelines, and adaptive decision systems. Apr 2026
+### Cloud & Infrastructure
 
-- [RAOR Series Part 1 - Repeatability in Production MLOps](https://lnkd.in/gFmixttr) - Production ML failure patterns and building consistent, repeatable pipelines. Apr 2026
+`AWS` · `GCP` · `Vertex AI` · `Docker` · `Kubernetes` · `GPU Compute` · `Cloud-native Data Platforms`
 
-- [RAOR Series Part 2 - Automation in Production MLOps and LLM Systems](https://lnkd.in/gwTvbPyT) - Orchestration, configuration management, and validation for reliable ML systems. Apr 2026
+### Engineering
 
+`Python` · `SQL` · `PL/SQL` · `ETL` · `Distributed Systems` · `Microservices` · `Kafka` · `AWS Glue` · `Athena` · `SSIS`
 
 ---
 
-## Connect
+## Healthcare AI
 
-Email: [vikrant.colab@gmail.com](mailto:vikrant.colab@gmail.com)
+Recent work includes production AI platforms for healthcare organizations working with **patient risk stratification and clinical workflows**.
 
-LinkedIn: https://linkedin.com/in/vikrant2
+**Domain experience**
 
+- EHR / EMR data
+- Clinical notes
+- Patient risk modeling
+- Social Determinants of Health (SDoH)
+- Clinical NLP
+- Healthcare data pipelines
+- PHI-aware AI workflows
+- ICD-10 and clinical coding context
+- Clinical workflow automation
+- Explainable risk models
+- Human-in-the-loop clinical processes
 
+---
 
+## Selected Production Systems
 
-<!---
-vikrant-github/vikrant-github is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### Healthcare AI & MLOps
+
+#### Prefect-based ML Orchestration — AWS
+
+Built an MLOps orchestration platform from zero, replacing manual configuration-driven pipeline execution with governed automated workflows across ingestion, preprocessing, data lake, and risk-scoring layers.
+
+**140K+ patients across multiple healthcare implementations**
+
+| Metric | Result |
+|---|---:|
+| Analytics turnaround | **75–85% reduction** |
+| 40K-patient implementation | **40h → 10h** |
+| 100K+ patient implementation | **10–15 days → 2–3 days** |
+| Infrastructure | **AWS EC2 / Fargate** |
+
+---
+
+### Clinical LLM Platform — AWS Bedrock
+
+Designed production LLM infrastructure for clinical summarization using **LLaMA 3.1-8B-Instruct on AWS Bedrock**.
+
+The platform incorporated structured-output validation, LLM evaluation, exception handling, HITL controls, and token-level cost telemetry.
+
+**10K+ clinical notes per run**
+
+- **<$0.00025 / note**
+- **92% orchestration stability**
+- **98% structured JSON compliance**
+- **20–30% AWS compute cost reduction**
+
+---
+
+### Clinical AI Architecture Review
+
+Identified a silent NLP dependency mismatch before national rollout.
+
+The upstream SDoH pipeline produced **7 features**, while the downstream zero-shot NLP model expected **12 features**.
+
+The issue was identified through independent architecture and dependency review before production deployment, preventing a potential data-quality failure.
+
+---
+
+### Healthcare Inference Infrastructure
+
+Defined production infrastructure architecture for high-volume healthcare inference by evaluating workload characteristics, data volume, throughput, and compute requirements.
+
+Selected **GPU-backed EC2 infrastructure** where workload characteristics justified GPU acceleration over standard compute.
+
+---
+
+## Machine Learning Architecture
+
+### Cardinal Health — OptiFreight®
+
+Designed ML architecture for ETA prediction across a healthcare logistics platform processing **20M+ shipments annually**.
+
+**Technology**
+
+`GCP Vertex AI` · `BigQuery` · `Dataflow` · `CatBoost` · `SHAP` · `Model Monitoring` · `Drift Detection` · `Automated Retraining`
+
+Selected **CatBoost** after evaluating Random Forest and Neural Network alternatives.
+
+**14M historical shipment records**
+
+### 97.66% Precision · 94.70% F1
+
+---
+
+## Conversational AI
+
+### JPMorgan Chase — Chase Mobile Virtual Assistant
+
+Architected NLP and data-layer microservices supporting conversational AI for a mobile banking platform serving **50M+ retail banking customers**.
+
+**Technology**
+
+`RASA` · `Kafka` · `Microservices` · `NLP` · `Dialogue Orchestration`
+
+Contributed to the migration from **IPsoft Amelia to RASA-based NLP architecture**.
+
+---
+
+## Large-Scale Data & Distributed Systems
+
+### AT&T — Domain 2.0
+
+Architected telecom analytics and ETL frameworks supporting AT&T's SDN/NFV transformation.
+
+**30TB+ network measurements processed monthly**
+
+Focus areas:
+
+`Network Performance Analytics` · `Fault Detection` · `Operational Intelligence` · `Distributed Processing` · `ETL Architecture` · `Legacy-to-Cloud Modernization`
+
+---
+
+### Symantec Managed Security Services
+
+Led database architecture modernization and IPv6 transformation across replicated Microsoft SQL Server environments.
+
+**400B+ security threat logs processed monthly**
+
+---
+
+### Openwave Telecom Platforms
+
+Engineered carrier-grade mediation, policy control, and traffic-management platforms supporting global telecom operators.
+
+Led the Ireland-to-India engineering transition for platforms supporting a **$40–50M quarterly business**.
+
+---
+
+### British Telecom — 21CN
+
+Worked on carrier-grade telecom observability, telemetry, and fault-correlation systems supporting BT's 21CN transformation.
+
+**22.5M+ households**
+
+---
+
+## Engineering Principles
+
+I focus on the engineering properties that determine whether AI systems survive production:
+
+- **Repeatability** — reproducible pipelines and controlled execution
+- **Reliability** — explicit failure handling and operational resilience
+- **Observability** — telemetry across models, pipelines, and infrastructure
+- **Governance** — validation, access controls, HITL, and auditability
+- **Cost Control** — compute and token economics considered at architecture time
+- **Explainability** — model outputs that can support operational decisions
+- **Lifecycle Management** — deployment, monitoring, drift, and retraining
+- **Production Fit** — architecture driven by workload and business constraints
+
+---
+
+## Technical Evolution
+
+```text
+Software Engineering
+        ↓
+Distributed Systems
+        ↓
+Telecom Platforms
+        ↓
+Enterprise Data & Analytics
+        ↓
+Machine Learning
+        ↓
+MLOps
+        ↓
+Generative AI
