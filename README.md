@@ -32,7 +32,7 @@ governance, reliability, and operational adoption**.
 
 | Area | Engineering Scope |
 |---|---|
-| **Generative AI & Clinical AI** | · LLaMA 3 / 3.1 · Clinical summarization · Structured output validation · LLM evaluation · Faithfulness assessment · Token telemetry · HITL · Clinical NLP · SDoH |
+| **Generative AI & Clinical AI** | LLaMA 3 / 3.1 · Clinical summarization · Structured output validation · LLM evaluation · Faithfulness assessment · Token telemetry · HITL · Clinical NLP · SDoH |
 | **Machine Learning** | Predictive risk modeling · ETA prediction · CatBoost · Neural networks · Zero-shot NLI · BART · RoBERTa · DeBERTa · SHAP · Model monitoring · Drift detection · Automated retraining |
 | **MLOps & Production Engineering** | Prefect · ML orchestration · Automated pipelines · Model versioning · CI/CD · Production monitoring · Lifecycle management · Workload sizing · GPU-backed inference |
 | **Cloud & Data Platforms** | AWS · GCP · Vertex AI · BigQuery · Dataflow · Glue · Athena · S3 · EMR · RDS · DynamoDB · Docker · Bedrock |
@@ -150,18 +150,6 @@ Experience with healthcare data, analytics, and AI workflows including:
 stratification · Clinical NLP · SDoH · Healthcare analytics · Risk models ·
 Clinical workflow automation · PHI-aware workflows · Human-in-the-loop
 
----
-
-# Technical Stack
-
-| Category | Technologies |
-|---|---|
-| **Generative AI** | `AWS Bedrock` · `LLaMA 3` · `RAG` · `Hybrid Retrieval` · `LLM-as-Judge` · `Faithfulness Evaluation` · `HITL` |
-| **Machine Learning** | `CatBoost` · `BART` · `RoBERTa` · `DeBERTa` · `SHAP` · `Neural Networks` |
-| **MLOps** | `Prefect` · `GitLab` · `Jenkins` · `Model Versioning` · `Drift Detection` · `Automated Retraining` |
-| **Cloud** | `AWS` · `GCP` · `Vertex AI` · `EC2` · `ECR` · `Fargate` · `Lambda` · `S3` · `EMR` · `BigQuery` · `Dataflow` |
-| **Data Engineering** | `Glue` · `Athena` · `SSIS` · `ETL` · `Kafka` |
-| **Software & Infrastructure** | `Python` · `SQL` · `PL/SQL` · `Docker` · `Kubernetes` · `GPU Compute` · `Microservices` · `Distributed Systems` |
 
 ---
 
