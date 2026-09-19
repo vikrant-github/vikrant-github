@@ -1,6 +1,6 @@
 # Vikrant
 
-**20+ years of engineering, architecture, and technology leadership**
+**20+ years in engineering, architecture, and technology | AI/ML systems, platforms, and leadership**
 
 Healthcare · BFSI · Telecom
 
@@ -16,7 +16,7 @@ and AI/ML leadership.
 
 Recent work spans **Generative AI, machine learning, MLOps, clinical AI,
 predictive intelligence, and cloud-native AI platforms**, with production
-implementations across healthcare and enterprise environments.
+implementations across healthcare, BFSI and enterprise environments.
 
 Engineering foundations include **carrier-grade telecom platforms, network
 analytics, security data platforms, enterprise databases, distributed systems,
@@ -28,20 +28,18 @@ governance, reliability, and operational adoption**.
 
 ---
 
-## Technical Scope
+### Technical Scope
 
 | Area | Engineering Scope |
 |---|---|
-| **Generative AI & Clinical AI** | AWS Bedrock · LLaMA 3 / 3.1 · Clinical summarization · Structured output validation · LLM evaluation · Faithfulness assessment · Token telemetry · HITL · Clinical NLP · SDoH |
+| **Generative AI & Clinical AI** | · LLaMA 3 / 3.1 · Clinical summarization · Structured output validation · LLM evaluation · Faithfulness assessment · Token telemetry · HITL · Clinical NLP · SDoH |
 | **Machine Learning** | Predictive risk modeling · ETA prediction · CatBoost · Neural networks · Zero-shot NLI · BART · RoBERTa · DeBERTa · SHAP · Model monitoring · Drift detection · Automated retraining |
 | **MLOps & Production Engineering** | Prefect · ML orchestration · Automated pipelines · Model versioning · CI/CD · Production monitoring · Lifecycle management · Workload sizing · GPU-backed inference |
-| **Cloud & Data Platforms** | AWS · GCP · Vertex AI · BigQuery · Dataflow · Glue · Athena · S3 · EMR · RDS · DynamoDB · Docker · Kubernetes |
+| **Cloud & Data Platforms** | AWS · GCP · Vertex AI · BigQuery · Dataflow · Glue · Athena · S3 · EMR · RDS · DynamoDB · Docker · Bedrock |
 | **Software & Distributed Systems** | Python · SQL / PL-SQL · Microservices · Kafka · ETL · Distributed systems · Enterprise integration · Telecom OSS/BSS |
-| **Healthcare Data & AI** | EHR / EMR · Clinical notes · ICD-10 context · Patient risk stratification · Clinical NLP · SDoH · Healthcare analytics · PHI-aware workflows |
-
 ---
 
-# Selected Production Work
+# Selected Production AI & ML Systems
 
 ## Healthcare AI & MLOps
 
